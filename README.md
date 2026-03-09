@@ -29,6 +29,7 @@ Eine Liste mit Websites & Apps/Programmen in Bezug auf Karten, öffentlichen Ver
 		https://tile.openstreetmap.org/{z}/{x}/{y}.png
 		```
 	- etliche weitere siehe [OSM Wiki](https://wiki.openstreetmap.org/wiki/Raster_tile_providers)
+- [Stellwerke.info](https://stellwerke.info/stw/map.php): Karte mit Stellwerken
 - [Flightradar24](https://www.flightradar24.com/): Flugzeuge live tracken
 - [MarineTraffic](https://www.marinetraffic.com/), [VesselFinder](https://www.vesselfinder.com/): Schiffe live tracken
 - [OpenStreetBrowser](https://www.openstreetbrowser.org/): Visualisieren von verschiedenen OSM-Daten, z.B.:
