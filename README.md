@@ -44,15 +44,22 @@ Eine Liste mit Websites & Apps/Programmen in Bezug auf Karten, öffentlichen Ver
 	- [öffentliche Toiletten in 100m Radius von Straßenbahnhaltestellen in Graz](https://overpass-turbo.eu/?Q=%0A%2F%2F%20speichere%20die%20Region%20Graz%20in%20der%20Variable%20%22graz%22%0A%7B%7BgeocodeArea%3AGraz%7D%7D-%3E.graz%3B%0A%0A%2F%2F%20suche%20alle%20Stra%C3%9Fenbahnhaltestellen%20in%20Graz%20und%20speichere%20sie%20in%20der%20Variable%20%22tramStops%22%0Anwr(area.graz)%5B%22railway%22%3D%22tram_stop%22%5D-%3E.tramStops%3B%0A%0A%2F%2F%20suche%20alle%20Toiletten%2C%20die%20h%C3%B6chstens%20100%20Meter%20von%20einer%20Stra%C3%9Fenbahnhaltestelle%20entfernt%20sind%0Anwr(around.tramStops%3A100)%5B%22amenity%22%3D%22toilets%22%5D%3B%0A%0A%2F%2F%20outputte%20die%20Geometrie%20der%20gefundenen%20Toiletten%0Aout%20geom%3B%0A&C=47.07%3B15.44%3B14)
 	- [Liste aller Buslinien, die über die ~Augartenbrücke~ _Alfred-Stingl-Brücke_ in Graz fahren](https://overpass-turbo.eu/?Q=%0A%2F%2F%20speichere%20die%20Region%20Graz%20in%20der%20Variable%20%22graz%22%0A%7B%7BgeocodeArea%3AGraz%7D%7D-%3E.graz%3B%0A%0A%2F%2F%20suche%20nach%20der%20Alfred-Stingl-Br%C3%BCcke%20in%20Graz%20und%20speichere%20sie%20in%20der%20Variable%20%22bridge%22%0Away(area.graz)%5B%22bridge%22%3D%22yes%22%5D%5B%22name%22%3D%22Alfred-Stingl-Br%C3%BCcke%22%5D-%3E.bridge%3B%0A%0A%2F%2F%20suche%20alle%20Busrouten%2C%20von%20denen%20die%20Alfred-Stingl-Br%C3%BCcke%20ein%20Teil%20ist%20(das%20%22bw%22%20steht%20f%C3%BCr%20%22backward%20from%20ways%22%2C%20weil%20man%20von%20einem%20Way%20(der%20Br%C3%BCcke)%20alle%20Busrouten-Relationen%20sucht%2C%20die%20den%20Way%20enthalten)%0Arel(bw.bridge)%5B%22route%22%3D%22bus%22%5D%3B%0A%0A%2F%2F%20outputte%20nur%20die%20Metadaten%20der%20Busrouten%20ohne%20jegliche%20Geometrie%0Aout%20tags%3B%0A)
 - [Submarine Cable Map](https://www.submarinecablemap.com/): Karte mit allen Internet-Kabeln
+- [wiki-map.com](https://wiki-map.com/map/), [https://wikimap.wiki/](wikimap.wiki): Karte mit Wikipedia-Artikeln über geographische Orte
+- [ViaMichelin](https://www.viamichelin.com/): Karte für Autofahrer, toll zum Analysieren von Autobahnnetzen
+- [SCDB Blitzer-Karte](https://www.scdb.info/de/karte/): Karte mit Blitzern, Rotlichtüberwachungen, etc.
+- [Google Earth](https://earth.google.com/web/): 3D-Ansicht etlicher Orte
+- Sonstige, "klassische" Karten-Websites: [Google Maps](https://www.google.com/maps/), [Apple Maps](https://maps.apple.com/), [Bing Maps](https://www.bing.com/maps), [Mapy](https://mapy.com/en/)
 
 ## Öffentlicher Personenverkehr
+- [ÖBB Scotty](https://fahrplan.oebb.at/webapp/): Routenplaner der ÖBB
+- [ÖBB Live](https://live.oebb.at/trip-search): Wagenreihung und Auslastung von Zügen
 - [TRAVIC](https://travic.app/): ÖV (Busse, Straßenbahnen, Züge) "tracken" (nicht live, sondern geplante Fahrten laut Fahrplan)
 - [AnachB](https://anachb.vor.at/): Österreichischer ÖV-Routenplaner. Bei der Karte kann man Live-ÖV anzeigen, ähnlich wie bei TRAVIC (Position der Busse/Straßenbahnen/Züge nicht nach echter GPS-Position, aber anhand der aktuellen Verspätung reverse-engineered)
 - [ÖBB Zug Livemap](https://fahrplan.oebb.at/webapp/?showLivemap=true): Züge live tracken (ähnlich wie AnachB aber speziell für Züge)
 - [Zugfinder](https://www.zugfinder.net/en/livemap-europa-2000-1800): Noch eine Züge-live-tracken-Website, aber mit schematischem Netzplan
 - [ÖPNVKarte](https://xn--pnvkarte-m4a.de/#14;48;7): Karte mit allen ÖV-Linien, ähnlich wie der [OSM Transport Layer](https://www.openstreetmap.org/#layers=T)
 - [Gleisplanweb](https://gleisplanweb.eu/plaene.php): Gleispläne etlicher Straßenbahn/U-Bahn-Netze
-- Netzpläne:
+- Netzpläne & Fahrpläne:
 	- Europa: [Schienennetz](https://www.interrail.eu/content/dam/_new-structure/visual/maps/interrail_map_2026.pdf)
 	- Österreich: [Schienennetzkarten](https://infrastruktur.oebb.at/de/geschaeftspartner/schienennetz/dokumente-und-daten/netzkarten), [Streckennetz](https://www.oebb.at/de/dam/jcr:7fc18e86-1c23-4cf0-b9e0-94eb05d32c3e/bahnnetz-oebb.pdf)
 	- Burgenland: [Netzplan](https://www.b-mobil.info/fileadmin/user_upload/Downloads/Gesamtnetz_Burgenland.pdf)
@@ -60,13 +67,15 @@ Eine Liste mit Websites & Apps/Programmen in Bezug auf Karten, öffentlichen Ver
 	- Niederösterreich: [St. Pölten Fahrplanheft mit Liniennetzplan](https://www.st-poelten.at/gv-buergerservice/verkehr-mobilitaet-und-reisen/lup)
 	- Oberösterreich: [Linz Netzplan](https://www.linzag.at/media/dokumente/linien_1/infomaterial_1/linien-linienfahrplan.pdf), [S-Bahn Netzplan](https://www.land-oberoesterreich.gv.at/Mediendateien/LK/S-Bahn_OOe-Netzplan.pdf)
 	- Ost-Region (Wien+Niederösterreich+Burgenland): Netzpläne [vom VOR](https://www.vor.at/befoerderung/downloads)/[von der ÖBB](https://www.oebb.at/de/regionale-angebote/wien)
-	- Salzburg: [Netzpläne](https://salzburg-verkehr.at/service/download/liniennetz-und-umgebungsplaene/)
-	- Steiermark: [Netzpläne und Haltestellenübersichten](https://www.verbundlinie.at/de/verbindungen/fahrplandownloads/netzplaene-haltestellenuebersichten?tag_id=all), [RegioBus-Netz](https://www.verbundlinie.at/images/service/pdfs/regiobus_hauptnetz.pdf)
+	- Salzburg: [Netzpläne](https://salzburg-verkehr.at/service/download/liniennetz-und-umgebungsplaene/), [Fahrpläne](https://salzburg-verkehr.at/fahrplaene/fahrplandownload/)
+	- Steiermark: [Netzpläne und Haltestellenübersichten](https://www.verbundlinie.at/de/verbindungen/fahrplandownloads/netzplaene-haltestellenuebersichten?tag_id=all), [RegioBus-Netz](https://www.verbundlinie.at/images/service/pdfs/regiobus_hauptnetz.pdf), [Fahrpläne & Verkehrsmeldungen](https://www.verbundlinie.at/de/verbindungen/fahrplandownloads/fahrplandownload?plan_id=all)
 	- Tirol: [Netzpläne](https://www.vvt.at/allgemeines/downloads)
 	- Vorarlberg: [Netzpläne](https://www.vmobil.at/de/bus-bahn/das-vvv-liniennetz), [S-Bahn Netzplan](https://www.oebb.at/de/regionale-angebote/vorarlberg/s-bahn-vorarlberg), [Bregenz Netzplan](https://www.stadtwerke-bregenz.at/stadtbus/fahrplaene-liniennetz)
 	- Wien: [Netzpläne](https://www.wienerlinien.at/fahrplaene#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_I93YWfWsDdVt)
 - [ÖBB Streckeninformation](https://fahrplan.oebb.at/bin/help.exe/dn?tpl=showmap_external): Karte mit aktuellen Baustellen und Störungen der ÖBB
+- [ÖBB Verkehrsmeldungen](https://www.unsereoebb.at/de/verkehrsmeldungen): Aktuelle Verkehrsmeldungen der ÖBB
 - [ÖBB Info-To-Go](https://infotogo.oebb.at/~8103172~): Live Abfahrts- & Ankunftsmonitore aller Bahnhöfe
+- [MVO Datenbereitstellungsplattform](https://data.mobilitaetsverbuende.at/de/data-sets): Plattform der Mobilitätsverbände Österreich mit Computer-lesbaren Fahrplan-Dateien
 
 ## GIS & regionspezifische Sachen:
 - [Geoland](https://geoland.at/): Übersicht mit Links zu GIS-Websites der österreichischen Bundesländer
@@ -105,6 +114,7 @@ Eine Liste mit Websites & Apps/Programmen in Bezug auf Karten, öffentlichen Ver
 - [Straßenbahnjournal](https://www.strassenbahnjournal.at/) inkl. [Wiki](https://www.strassenbahnjournal.at/wiki/index.php?title=Hauptseite): Website mit random Infos, Fotos etc. im Bezug auf Straßenbahnen
 - [Styria-Mobile](https://www.styria-mobile.at/) inkl. [Forum](https://www.styria-mobile.at/home/smf/index.php): Straßenbahnen & Züge in der Steiermark
 - [Tramwayforum.at](https://www.tramwayforum.at/): österreichisches Straßenbahn-Forum
+- [public-transport.net](https://public-transport.net/): Bildersammlung von Öffis
 
 ## Apps
 - [Organic Maps](https://organicmaps.app/): OSM-basierte Navigationsapp für Android+iOS
