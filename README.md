@@ -42,13 +42,23 @@ Eine Liste mit Websites & Apps/Programmen in Bezug auf Karten, öffentlichen Ver
 - [World topographic map](https://en-gb.topographic-map.com/world/): Karte mit Höhenmetern farblich gekennzeichnet
 - [Overpass Turbo](https://overpass-turbo.eu/): Website, um ganz spezifische OpenStreetMap-Datenabfragen zu [programmieren](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL). Ein KI-Chatbot kann dabei hilfreich (allerdings auch unzuverlässig) sein. z.B.:
 	- [öffentliche Toiletten in 100m Radius von Straßenbahnhaltestellen in Graz](https://overpass-turbo.eu/?Q=%0A%2F%2F%20speichere%20die%20Region%20Graz%20in%20der%20Variable%20%22graz%22%0A%7B%7BgeocodeArea%3AGraz%7D%7D-%3E.graz%3B%0A%0A%2F%2F%20suche%20alle%20Stra%C3%9Fenbahnhaltestellen%20in%20Graz%20und%20speichere%20sie%20in%20der%20Variable%20%22tramStops%22%0Anwr(area.graz)%5B%22railway%22%3D%22tram_stop%22%5D-%3E.tramStops%3B%0A%0A%2F%2F%20suche%20alle%20Toiletten%2C%20die%20h%C3%B6chstens%20100%20Meter%20von%20einer%20Stra%C3%9Fenbahnhaltestelle%20entfernt%20sind%0Anwr(around.tramStops%3A100)%5B%22amenity%22%3D%22toilets%22%5D%3B%0A%0A%2F%2F%20outputte%20die%20Geometrie%20der%20gefundenen%20Toiletten%0Aout%20geom%3B%0A&C=47.07%3B15.44%3B14)
-	- [Liste aller Buslinien, die über die ~Augartenbrücke~ _Alfred-Stingl-Brücke_ in Graz fahren](https://overpass-turbo.eu/?Q=%0A%2F%2F%20speichere%20die%20Region%20Graz%20in%20der%20Variable%20%22graz%22%0A%7B%7BgeocodeArea%3AGraz%7D%7D-%3E.graz%3B%0A%0A%2F%2F%20suche%20nach%20der%20Alfred-Stingl-Br%C3%BCcke%20in%20Graz%20und%20speichere%20sie%20in%20der%20Variable%20%22bridge%22%0Away(area.graz)%5B%22bridge%22%3D%22yes%22%5D%5B%22name%22%3D%22Alfred-Stingl-Br%C3%BCcke%22%5D-%3E.bridge%3B%0A%0A%2F%2F%20suche%20alle%20Busrouten%2C%20von%20denen%20die%20Alfred-Stingl-Br%C3%BCcke%20ein%20Teil%20ist%20(das%20%22bw%22%20steht%20f%C3%BCr%20%22backward%20from%20ways%22%2C%20weil%20man%20von%20einem%20Way%20(der%20Br%C3%BCcke)%20alle%20Busrouten-Relationen%20sucht%2C%20die%20den%20Way%20enthalten)%0Arel(bw.bridge)%5B%22route%22%3D%22bus%22%5D%3B%0A%0A%2F%2F%20outputte%20nur%20die%20Metadaten%20der%20Busrouten%20ohne%20jegliche%20Geometrie%0Aout%20tags%3B%0A)
+	- [Liste aller Buslinien, die über die <del>Augartenbrücke</del> _Alfred-Stingl-Brücke_ in Graz fahren](https://overpass-turbo.eu/?Q=%0A%2F%2F%20speichere%20die%20Region%20Graz%20in%20der%20Variable%20%22graz%22%0A%7B%7BgeocodeArea%3AGraz%7D%7D-%3E.graz%3B%0A%0A%2F%2F%20suche%20nach%20der%20Alfred-Stingl-Br%C3%BCcke%20in%20Graz%20und%20speichere%20sie%20in%20der%20Variable%20%22bridge%22%0Away(area.graz)%5B%22bridge%22%3D%22yes%22%5D%5B%22name%22%3D%22Alfred-Stingl-Br%C3%BCcke%22%5D-%3E.bridge%3B%0A%0A%2F%2F%20suche%20alle%20Busrouten%2C%20von%20denen%20die%20Alfred-Stingl-Br%C3%BCcke%20ein%20Teil%20ist%20(das%20%22bw%22%20steht%20f%C3%BCr%20%22backward%20from%20ways%22%2C%20weil%20man%20von%20einem%20Way%20(der%20Br%C3%BCcke)%20alle%20Busrouten-Relationen%20sucht%2C%20die%20den%20Way%20enthalten)%0Arel(bw.bridge)%5B%22route%22%3D%22bus%22%5D%3B%0A%0A%2F%2F%20outputte%20nur%20die%20Metadaten%20der%20Busrouten%20ohne%20jegliche%20Geometrie%0Aout%20tags%3B%0A)
 - [Submarine Cable Map](https://www.submarinecablemap.com/): Karte mit allen Internet-Kabeln
-- [wiki-map.com](https://wiki-map.com/map/), [https://wikimap.wiki/](wikimap.wiki): Karte mit Wikipedia-Artikeln über geographische Orte
+- [wiki-map.com](https://wiki-map.com/map/), [wikimap.wiki](https://wikimap.wiki/): Karte mit Wikipedia-Artikeln über geographische Orte
 - [ViaMichelin](https://www.viamichelin.com/): Karte für Autofahrer, toll zum Analysieren von Autobahnnetzen
 - [SCDB Blitzer-Karte](https://www.scdb.info/de/karte/): Karte mit Blitzern, Rotlichtüberwachungen, etc.
 - [Google Earth](https://earth.google.com/web/): 3D-Ansicht etlicher Orte
-- Sonstige, "klassische" Karten-Websites: [Google Maps](https://www.google.com/maps/), [Apple Maps](https://maps.apple.com/), [Bing Maps](https://www.bing.com/maps), [Mapy](https://mapy.com/en/)
+- [Soar Atlas](https://soaratlas.com/): digitaler Atlas für etliche Karten aus der Community
+- Sonstige universelle Karten-Websites:
+	- [Google Maps](https://www.google.com/maps/)
+	- [Apple Maps](https://maps.apple.com/)
+	- [Bing Maps](https://www.bing.com/maps)
+	- [Mapy](https://mapy.com/en/)
+	- [TomTom](https://plan.tomtom.com/)
+	- [OsmAPP](https://osmapp.org/)
+	- [Facilmap](https://facilmap.org/)
+	- [Freemap](https://www.freemap.sk/)
+	- [Openrouteservice Maps](https://maps.openrouteservice.org/)
 
 ## Öffentlicher Personenverkehr
 - [ÖBB Scotty](https://fahrplan.oebb.at/webapp/): Routenplaner der ÖBB
