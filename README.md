@@ -53,7 +53,7 @@ Eine Liste mit Websites & Apps/Programmen in Bezug auf Karten, öffentlichen Ver
 - [Electricity Maps](https://app.electricitymaps.com/): Analyse von Stromerzeugung, Verbrauch, Import/Export, etc. aller Länder/Regionen
 - [Mapillary](https://www.mapillary.com/app/), [KartaView](https://kartaview.org/map/): Fotos von Straßen aus der Community (quasi ein Community-driven Google Street View)
 - [OpenSeaMap](https://map.openseamap.org/): Seekarte für Schiffe
-- [OpenShowMap](https://www.opensnowmap.org/): Karte mit Skigebieten, Langlaufstrecken, etc.
+- [OpenSnowMap](https://www.opensnowmap.org/): Karte mit Skigebieten, Langlaufstrecken, etc.
 - Sonstige Karten-Websites:
 	- [Google Maps](https://www.google.com/maps/)
 	- [Apple Maps](https://maps.apple.com/)
