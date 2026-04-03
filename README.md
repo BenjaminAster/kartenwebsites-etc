@@ -49,16 +49,26 @@ Eine Liste mit Websites & Apps/Programmen in Bezug auf Karten, öffentlichen Ver
 - [SCDB Blitzer-Karte](https://www.scdb.info/de/karte/): Karte mit Blitzern, Rotlichtüberwachungen, etc.
 - [Google Earth](https://earth.google.com/web/): 3D-Ansicht etlicher Orte
 - [Soar Atlas](https://soaratlas.com/): digitaler Atlas für etliche Karten aus der Community
-- Sonstige universelle Karten-Websites:
+- [BBBike Map Compare](https://mc.bbbike.org/mc/): Mehrere Map Tile Provider in Split-View vergleichen
+- [Electricity Maps](https://app.electricitymaps.com/): Analyse von Stromerzeugung, Verbrauch, Import/Export, etc. aller Länder/Regionen
+- [Mapillary](https://www.mapillary.com/app/), [KartaView](https://kartaview.org/map/): Fotos von Straßen aus der Community (quasi ein Community-driven Google Street View)
+- [OpenSeaMap](https://map.openseamap.org/): Seekarte für Schiffe
+- [OpenShowMap](https://www.opensnowmap.org/): Karte mit Skigebieten, Langlaufstrecken, etc.
+- Sonstige Karten-Websites:
 	- [Google Maps](https://www.google.com/maps/)
 	- [Apple Maps](https://maps.apple.com/)
 	- [Bing Maps](https://www.bing.com/maps)
+	- [Yandex Maps](https://yandex.com/maps/)
 	- [Mapy](https://mapy.com/en/)
 	- [TomTom](https://plan.tomtom.com/)
+	- [MapQuest](https://www.mapquest.com/)
 	- [OsmAPP](https://osmapp.org/)
 	- [Facilmap](https://facilmap.org/)
 	- [Freemap](https://www.freemap.sk/)
 	- [Openrouteservice Maps](https://maps.openrouteservice.org/)
+	- [MapTiler](https://www.maptiler.com/maps/)
+	- [OpenStreetMap Americana](https://americanamap.org/)
+	- [GraphHopper Maps](https://graphhopper.com/maps/)
 
 ## Öffentlicher Personenverkehr
 - [ÖBB Scotty](https://fahrplan.oebb.at/webapp/): Routenplaner der ÖBB
@@ -84,6 +94,7 @@ Eine Liste mit Websites & Apps/Programmen in Bezug auf Karten, öffentlichen Ver
 	- Wien: [Netzpläne](https://www.wienerlinien.at/fahrplaene#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_I93YWfWsDdVt)
 - [ÖBB Streckeninformation](https://fahrplan.oebb.at/bin/help.exe/dn?tpl=showmap_external): Karte mit aktuellen Baustellen und Störungen der ÖBB
 - [ÖBB Verkehrsmeldungen](https://www.unsereoebb.at/de/verkehrsmeldungen): Aktuelle Verkehrsmeldungen der ÖBB
+- [ÖBB Projektübersicht](https://www.oebb.at/infrastruktur/gis/projekte/projektuebersicht.html): Karte mit allen großen Bauprojekten der ÖBB
 - [ÖBB Info-To-Go](https://infotogo.oebb.at/~8103172~): Live Abfahrts- & Ankunftsmonitore aller Bahnhöfe
 - [MVO Datenbereitstellungsplattform](https://data.mobilitaetsverbuende.at/de/data-sets): Plattform der Mobilitätsverbände Österreich mit Computer-lesbaren Fahrplan-Dateien
 
