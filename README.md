@@ -29,6 +29,7 @@ Eine Liste mit Websites & Apps/Programmen in Bezug auf Karten, öffentlichen Ver
 		https://tile.openstreetmap.org/{z}/{x}/{y}.png
 		```
 	- etliche weitere siehe [OSM Wiki](https://wiki.openstreetmap.org/wiki/Raster_tile_providers)
+- [AllRailMap](https://allrailmap.com/): Wie OpenRailwayMap aber viel simpler. Vorteil: Alle Gleise (d.h. auch kleine Lokalbahnen) werden auch in der kleinsten Zoomstufe angezeigt
 - [Stellwerke.info](https://stellwerke.info/stw/map.php): Karte mit Stellwerken
 - [Flightradar24](https://www.flightradar24.com/): Flugzeuge live tracken
 - [MarineTraffic](https://www.marinetraffic.com/), [VesselFinder](https://www.vesselfinder.com/): Schiffe live tracken
@@ -54,6 +55,9 @@ Eine Liste mit Websites & Apps/Programmen in Bezug auf Karten, öffentlichen Ver
 - [Mapillary](https://www.mapillary.com/app/), [KartaView](https://kartaview.org/map/): Fotos von Straßen aus der Community (quasi ein Community-driven Google Street View)
 - [OpenSeaMap](https://map.openseamap.org/): Seekarte für Schiffe
 - [OpenSnowMap](https://www.opensnowmap.org/): Karte mit Skigebieten, Langlaufstrecken, etc.
+- [BridgeInfo](https://bridgeinfo.net/map/): Karte mit bekannten/coolen Brücken
+- [OpenInfrastructureMap](https://openinframap.org/): Karte mit Stromleitungen, Öl-/Gaspipelines, etc.
+- [OpenTrafficMap](https://opentrafficmap.org/): Live-Karte mit Ampelphasen, Öffi-Positionen etc. Signale der Fahrzeuge & Ampelanlagen werden von Antennen der Community aufgefangen; die Coverage ist dementsprechend schlecht. Aktuell nur in Graz sinnvoll nutzbar. Siehe [Talk auf YouTube](https://www.youtube.com/watch?v=gje6RnskBNA)
 - Sonstige Karten-Websites:
 	- [Google Maps](https://www.google.com/maps/)
 	- [Apple Maps](https://maps.apple.com/)
